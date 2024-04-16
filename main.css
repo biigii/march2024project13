@@ -1,0 +1,10 @@
+/* @import url("this was also an sting") */
+
+:root {
+    --myVar: #f11
+}
+
+h1 {
+    text-align: center;
+    color: var(--myVar)
+}
