@@ -1,10 +1,10 @@
 /* @import url("this was also an sting") */
 
 :root {
-    --myVar: #f11
+    --brand-color: #f11
 }
 
 h1 {
     text-align: center;
-    color: var(--myVar)
+    color: var(--brand-color)
 }

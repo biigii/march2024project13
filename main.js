@@ -1,33 +1,47 @@
-// () {} [] ; , "" ''
-// {
-//     ([])
-//     {
-//         ([])
-//     }
-// }
+// parent.child.grantdChild.greatGrandChild
 
-// parent.child.grandchild
+// var text = "hello world"
+// var num = 1000;
 
-// alert("hello world");
-// console.log which you use to log/print to your browser console
-// ; semicolon at the end of line is optional
-// console.log("Hello World")
-// console.log(1000) // number
-// console.log("1000") // string
+// window.document
+// console.log(window.document)
 
-// console.log(1000 + 1000) // adding 2 numbers
-// console.log("1000" + "1000") // adding 2 strings
+// in CSS we had background-color, but in Javascript we use
+// a syntax called camel casing ==> 
+// backgroundColor or textAlign marginRight
+// console.log('it works')
+// document.body.style.backgroundColor = "#f88";
 
-// var age;
-// age = 10;
-// age = 100;
+// document.getElementById("heading").style.color = "red";
+// document.getElementById("heading").style.fontSize = "5em";
+// document.getElementById("heading").style.textTransform = "uppercase"
 
-// console.log(age)
 
-// var num1 = 1000;
-// var num2 = 2000;
 
-// var sum;
+var myAwesomePhoto = document.getElementById("photo");
+// console.log(myAwesomePhoto)
+myAwesomePhoto.style.border = "20px solid red"
+myAwesomePhoto.style.rotate = "45deg"
 
-// sum = num1 + num2;
-// console.log(sum)
+var wordOne = "hello"
+var wordTwo = "world"
+
+console.log(wordOne + wordTwo)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+myAwesomePhoto.style.borderRadius = "50%"
